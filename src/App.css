@@ -1,0 +1,130 @@
+body{
+  background: linear-gradient(90deg, #1F3040 51.33%, #FF9442 51.5%);
+}
+main{
+  width: 1210px;
+  margin: 0 auto;
+  background:#FFF;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid #bc0a0a;
+}
+.container{
+  width: 1120px;
+  margin: 0 auto;
+}
+nav.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 40px;
+  border-bottom: 1px solid #000;
+}
+.nav-dark{
+  padding: 10px 20px;
+  font-size: 30px;
+  border:none;
+  border-radius:10px;
+  background:lightgrey;
+  cursor: pointer;
+}
+nav.navbar ul{
+  display: flex;
+  gap: 15px;
+}
+nav.navbar ul a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+nav.navbar ul a:hover{
+  color: #FF9442;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+}
+.hero .hero-text{
+  width: 64%;
+}
+.hero .hero-text h1{
+  font-size: 65px;
+}
+.hero .hero-text p{
+  width: 580px;
+  font-size: 24px;
+}
+.hero .hero-image{
+  width: 497px;
+  height: 588px;
+}
+.buttons{
+  display: flex;
+  gap: 20px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.buttons a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 26px;
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  transition: all 0.5s;
+}
+.buttons a:hover{
+  color: #FFF;
+  background:#000;
+}
+.select{
+  margin-left: 20px;
+  border:none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius:10px;
+  border:2px solid lightgrey;
+  padding: 5px 10px;
+}
+
+
+.darkMode{
+  background:#182633;
+  border:2px solid #FFF;
+  color: #FFF;
+}
+.darkMode .nav-dark{
+  background:#1F3040;
+  color:#FFF;
+}
+.darkMode nav ul a{
+  color: #FFF;
+}
+.darkMode .select{
+  color:white;
+  background:#182633;
+}
+.darkMode .buttons a{
+  text-decoration: none;
+  background:#000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+.darkMode .buttons a:hover{
+  color: #000;
+  background:#ffffff;
+}
+
+#main{
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
